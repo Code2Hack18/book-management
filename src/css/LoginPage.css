@@ -92,7 +92,15 @@ outline: none;
     width: 50%;
     height: 100vh;
     background: rgb(2,0,36);
-    background: rgb(131,70,205);
+  /*  background: rgb(131,70,205);
     background: linear-gradient(157deg, rgba(131,70,205,1) 0%, rgba(92,9,121,0.6643032212885154) 43%, rgba(0,142,255,1) 100%);
+*/
+background: rgb(131,70,205);
+background: linear-gradient(157deg,
+ rgba(131,70,205,0) 0%, 
+ rgba(92,9,121,0.11808473389355745) 43%,
+ rgba(0,142,255,0.05926120448179273) 100%);
+
+ 
 }
 
