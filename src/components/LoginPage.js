@@ -41,7 +41,8 @@ export default function LoginPage() {
         
         
         <div className='form-view2'>
-        
+          <div className='form-view3'></div>
+          
         </div>
         
       </div>

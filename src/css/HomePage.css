@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;618&display=swap');
+
+.main-header{
+    width: 100%;
+    height: 15vh;
+    /* background-color: aqua; */
+    /* background-color: #fd1212; */
+  
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.logo-h{
+   
+    margin-left: 10%;
+    width: 12%;
+    height: 10vh;
+    /* background-color: brown; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.logo-c{
+    width: 100%;
+    height: 50%;
+    background-image: url("../assets/logo11.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.search-bar{
+    width: 50%;
+    height: 10vh;
+    /* background-color: rgb(219, 149, 149); */
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.buy-1{
+    width: 10%;
+    height: 10vh;
+    /* background-color: rgb(73, 15, 15); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-right: 5%;
+
+}
+
+.user-logo{
+    width: 10%;
+    height: 10vh;
+    /* background-color: rgb(116, 27, 27); */
+    /* margin-right: 10%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+
+
+}
+.u-logo{
+    height: 35%;
+    width: 100%;
+}
+
+.search-i{
+    width: 80%;
+    height: 45%;
+    border-radius: 12px;
+    border: 1px solid rgb(219, 217, 213);
+
+}
+
+.header-icons{
+    width: 20%;
+    height: 100%;
+    /* background-color: aqua; */
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: center;
+    /* margin-left: 32%;
+    margin-right: 32%; */
+    /* background-color: blanchedalmond; */
+    width: 100%;
+    height: 9vh;
+}
+
+li{
+    list-style-type: none;
+}
+
+.w1{
+    width: 10%;
+    height: 50%;
+    /* background-color: aqua; */
+}
+.ul-h{
+    width: 31%;
+    height: 10%;
+    background-color: rgb(59, 39, 112);
+}
+.ul-a{
+    width: 63%;
+    display: none;
+}
+.ul-b{
+    display: none;
+}
+.ul-r{
+    width: 70%;
+    display: none;
+}
+
+.ul-s{
+    width: 24%;
+    display: none;
+}
+
+
+
+.lo{
+   text-decoration: none;
+   color: rgb(3, 3, 22);
+   text-decoration-line: none;
+    font-weight: 500;
+}
+
+.main-div{
+    background-color: rgb(115, 255, 0);
+   background-image: url("../assets/home_bg.png");
+    width: 100%;
+   height: 78vh;
+   margin-top: -1.5%;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+  
+
+}
+.outer{
+    width: 100%;
+    height : 50px;
+    /* display: inline-block; */
+    /* border : 2px solid red; */
+    background-color: #fd1212;
+    color : white;
+    /* background: #fd1212; */
+}
+
+.img-1{
+    width: 80%;
+    height: 100%;
+    
+    
+
+}
+.text-d{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    /* background-color: aqua; */
+    
+    width: 50%;
+    height: 100%;
+    align-items:flex-start;
+/* background-color: aqua; */
+}
+
+.Text-1{
+    font-size: 1lh;
+    font-weight: 450;
+    color:blue;
+    
+}
+
+.txt1{
+    display: flex;
+    font-family:Rubik;
+    font-size: 300%;
+    font-weight: 600;
+    
+}
+.txt-off{
+    color: blue;
+}
+
+.std-c{
+    font-size:150%;
+    margin-top: 2%;
+    font-family: Rubik;
+    color:rgb(54, 53, 53)
+}
+.bt{
+    margin-top: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    /* background: rgb(12,154,246); */
+    background: linear-gradient(273deg, rgba(40, 205, 255, 0.87) 0%, rgba(89,168,231,1) 0%, rgba(43,122,185,1) 43%, rgba(0,84,150,1) 100%);
+    color:aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* font-size: 400; */
+}
+
+.imgPNG{
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(80px 0px 80px #ff0000);
+    -webkit-filter: drop-shadow(10px 10px #fd1212);
+    /* box-shadow: 5px 5px 5px inset ; */
+   
+  filter: contrast(150%);
+}
