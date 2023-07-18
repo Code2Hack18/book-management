@@ -1,55 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;618&display=swap');
+
+
+
 .flex-container{
     height: 25vh;
     width: 100%;
     display: flex;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     justify-content: center;
     
 
 }
 .d1{
     width: 25%;
-    background-color: rgb(179, 255, 0);
+    /* background-color: rgb(179, 255, 0); */
     height: 80%;
     padding: 10px;
     /* padding-right: 10px; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .img-dd{
-    border: 1px solid rgb(255, 145, 0);
+    /* border: 1px solid rgb(255, 145, 0); */
     width: 20%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 9%;
 }
 
 .text-dd{
-    border: 1px solid rgb(0, 255, 85);
+    /* border: 1px solid rgb(0, 255, 85); */
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-left: 10px;
 
 }
 
 .textt-d1{
     width: 100%;
     height: 30%;
-    border: solid 1px black;
-
+    /* border: solid 1px black; */
+    display: flex;
+    justify-content: start;
+    align-items:start;
+    text-align: left;
 }
 
 
 .textt-d12{
 width: 100%;
 height: 50%;
-border: solid 1px rgb(184, 26, 26);
+/* border: solid 1px rgb(184, 26, 26); */
+justify-content: center;
+align-items: center;
+text-align:left;
 
 }
 
@@ -57,6 +69,17 @@ border: solid 1px rgb(184, 26, 26);
     width: 65%;
     height: 50%;
     color: rgb(15, 103, 138);
-    border: solid 1px red;
+    /* border: solid 1px red; */
 
     }
+h3{
+        color: rgb(15, 103, 138);
+        font-family:'Rubik', Courier, monospace;
+
+    }
+p{
+    color: rgb(15, 103, 138);
+    font-family:'Rubik', Courier, monospace;
+    font-size: small;
+}
+

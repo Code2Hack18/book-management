@@ -3,6 +3,7 @@ import "../css/HomePage.css";
 import { FaBeer } from "react-icons/fa";
 import Home_Service from "./Home_Service";
 import { AiOutlineUser, AiOutlineShoppingCart } from "react-icons/ai";
+import SellersOption from "./SellersOption";
 
 export default function HomePage() {
   return (
@@ -28,6 +29,9 @@ export default function HomePage() {
         </div>
       </div>
       <Home_Service />
+      <div style={{ display:"flex", width:"100%", justifyContent:"center", alignItems:"center"}}>
+      <SellersOption />
+        </div>
     </>
 
   );
