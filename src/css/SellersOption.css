@@ -3,7 +3,7 @@
 
 .coursel-div{
     position: relative;
-    width: 70%;
+    width: 65%;
     /* height: 300px; */
     /* display: flex;
     justify-content: center;
@@ -17,12 +17,12 @@
 .txtx1{
     color: rgb(11, 130, 199);
     font-family: Rubik, Courier, monospace;
-    margin-top: -1%;
+    margin-bottom:15%;
 }
 
 .txtx2{
     color: rgb(2, 2, 39);
-    /* margin-top: -3%; */
+    margin-top: -4%;
 }
 .txtx3{
     color: blue;

@@ -11,6 +11,7 @@ export default function RegisterPage() {
   let userId = Math.ceil(Math.random() * 100);
   //Registration state
   const data = { userId, name, email, password };
+  
   const errorCSS = {
     height: "25px",
     marginTop: "10px",
@@ -19,6 +20,7 @@ export default function RegisterPage() {
     borderRadius: "10px",
     color: "white",
   };
+
   const [resp, setResp] = useState("");
 
   function Registered() {
@@ -42,8 +44,7 @@ export default function RegisterPage() {
       });
   }
 
-  let num = 0;
-
+ 
   return (
     <>
       <div className="form">

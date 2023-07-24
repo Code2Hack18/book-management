@@ -12,7 +12,7 @@ export default function HomePage() {
         <div className="img-1">
           <img
             src={require("../assets/hearder_m.png")}
-            className="imgPNG"
+            className="imgPNG impg2"
             alt="fireSpot"
           ></img>
         </div>
@@ -29,6 +29,9 @@ export default function HomePage() {
         </div>
       </div>
       <Home_Service />
+      <div className="name-bs">
+      <h4 className="best-s">Current Bestsellers</h4>
+      </div>
       <div style={{ display:"flex", width:"100%", justifyContent:"center", alignItems:"center"}}>
       <SellersOption />
         </div>
